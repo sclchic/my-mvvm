@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MVVM</title>
+</head>
+<body>
+    <div id="app">
+        <input type="text" v-model="someStr">
+        <h1>{{ someStr }}</h1>
+        <h2>{{ someStr }}</h2>
+        <button v-on:click="changeVm">click me to change vm</button>
+        <a class="github-fork-ribbon" href="https://github.com/sclchic/ChicFE" data-ribbon="Fork me on GitHub" title="Fork me on GitHub">Fork me on GitHub</a>
+    </div>
+<script type="text/javascript" src="bundle.js"></script></body>
+</html>
